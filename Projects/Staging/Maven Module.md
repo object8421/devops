@@ -58,12 +58,93 @@ _说明：本文使用Spring Tool Suite作为开发工具_
 - com.project.root.aspect				-- AOP [使用AOP处理相关业务]
 - com.project.root.component  		-- 业务组件 [系统业务组件]
 - com.project.root.factory    		-- 工厂类 [负责核心业务调度]
-- ...									-- 更多
+
+* 更多与扩展
 - com.project.root.xxx.dao			-- 项目中涉及多种业务模块，可以定义扩展包
 
-* project-root 		-- 顶级父类模块
-* project-utils 	-- 通用工具模块
-* project-model 	-- 实体POJO
+### project-utils
+
+-- 通用工具包
+
+* 构建工具类模块
+
+[1]. 创建Simple Spring Maven项目: project-utils
+
+[2]. pom.xml
+
+```
+<!-- utils模块基本信息：与父模块共用版本号 -->
+<modelVersion>4.0.0</modelVersion>
+<groupId>com.project.utils</groupId>
+<artifactId>project-utils</artifactId>
+<packaging>jar</packaging>
+
+<!-- 继承父模块 -->
+<parent>
+	<groupId>com.project.root</groupId>
+	<artifactId>project-root</artifactId>
+	<version>1.0.0</version>
+</parent>
+```
+
+[3]. 职能说明
+
+* 工具包继承父模块，主要管理项目中依赖的工具类库
+* 自定义工具类应该参考优秀开源项目中的代码编写，如 Apache Commons.
+* 工具类不能依赖其他模块，要做好顶层设计。
+* 工具类应该具备通用性，标准化，规范化，可扩展性。
+* 应该及时优秀工具类的代码和BUG，使之更加高效、安全。
+
+[4]. 包的命名约定[仅作参考]
+
+- com.project.utils.file -- 文件操作
+- com.project.utils.lang -- 数据类型
+- com.project.utils.http -- HTTP请求
+- com.project.utils.text -- 文本操作
+- com.project.utils.format -- 格式化
+
+* 更多与扩展
+- com.project.utils.xxx -- 以工具类的类型作为包的分类原则。
+
+### project-model
+
+-- 实体POJO模块
+
+* 构建工具类模块
+
+[1]. 创建Simple Spring Maven项目: project-model
+
+[2]. pom.xml
+
+```
+<!-- 实体POJO模块基本信息：与父模块共用版本号 -->
+<modelVersion>4.0.0</modelVersion>
+<groupId>com.project.model</groupId>
+<artifactId>project-model</artifactId>
+<packaging>jar</packaging>
+
+<!-- 继承父模块 -->
+<parent>
+	<groupId>com.project.root</groupId>
+	<artifactId>project-root</artifactId>
+	<version>1.0.0</version>
+</parent>
+```
+
+[3]. 职能说明
+
+* 实体层管理与数据库字段的映射。
+* 实体层提供对数据安全性的验证。[应该集成Hibernate-validator或Oval验证框架]
+* 实体层要统一字段的命名约定。[应该确保风格统一，字段名称简明、通用、一致。]
+* 实体层要提供相关的对外方法、构造函数等。[非get/set方法]
+
+[4]. 包的命名约定[仅作参考]
+
+- com.project.model -- 实体POJO。[注意：实体类的命名不要加相关的后缀名称]
+
+* 更多与扩展
+- com.project.model.xxx -- 如果有更多的业务类型，可以使用扩展包
+
 * project-dao 		-- 数据访问层
 * project-service 	-- 业务核心
 * project-web 		-- PC端应用程序
