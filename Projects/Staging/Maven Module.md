@@ -2,7 +2,7 @@
 
 ## 模块说明
 
-=说明：本文使用Spring Tool Suite作为开发工具=
+_说明：本文使用Spring Tool Suite作为开发工具_
 
 ### project-root / project-parent
 
@@ -47,19 +47,19 @@
 
 [4]. 包的命名约定[仅作参考]
 
-com.project.root.model  			-- 基础，通用的Model
-com.project.root.dao 				-- 数据访问层通用接口
-com.project.root.dao.impl  			-- 数据访问层通用实现类
-com.project.root.service   			-- 服务层通用接口
-com.project.root.service.impl   	-- 服务层通用实现类
-com.project.root.controller   		-- 控制层通用类
-com.project.root.annotation 		-- 自定义注解
-com.project.root.interceptor 		-- 自定义拦截器 [配合注解使用]
-com.project.root.aspect				-- AOP [使用AOP处理相关业务]
-com.project.root.component  		-- 业务组件 [系统业务组件]
-com.project.root.factory    		-- 工厂类 [负责核心业务调度]
-...									-- 更多
-com.project.root.xxx.dao			-- 项目中涉及多种业务模块，可以定义扩展包
+- com.project.root.model  			-- 基础，通用的Model
+- com.project.root.dao 				-- 数据访问层通用接口
+- com.project.root.dao.impl  			-- 数据访问层通用实现类
+- com.project.root.service   			-- 服务层通用接口
+- com.project.root.service.impl   	-- 服务层通用实现类
+- com.project.root.controller   		-- 控制层通用类
+- com.project.root.annotation 		-- 自定义注解
+- com.project.root.interceptor 		-- 自定义拦截器 [配合注解使用]
+- com.project.root.aspect				-- AOP [使用AOP处理相关业务]
+- com.project.root.component  		-- 业务组件 [系统业务组件]
+- com.project.root.factory    		-- 工厂类 [负责核心业务调度]
+- ...									-- 更多
+- com.project.root.xxx.dao			-- 项目中涉及多种业务模块，可以定义扩展包
 
 * project-root 		-- 顶级父类模块
 * project-utils 	-- 通用工具模块
