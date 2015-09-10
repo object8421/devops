@@ -65,3 +65,19 @@
 * [GitHub - Build software better, together.](https://github.com/)
 * [ckan - The open source data portal software](http://ckan.org/)
 * [HeidiSQL - MySQL, MSSQL and PostgreSQL made easy](http://www.heidisql.com/)
+
+
+## 微商城
+
+
+* [微店网](http://www.okwei.com/)：首创云销售模式，把商家高额推广费变为推广佣金，颠覆了传统电商平台靠赚取推广费的盈利模式。
+* [蘑菇街小店](http://www.xiaodian.com/)：经营你的小梦想
+* [快店](http://www.veigou.com/)：一站式服务,微信商城
+* [微小店](http://v.weixiaodian.com/)：微小店网赚联盟是微小店官网推出的在线微店代理兼职项目
+* [百度微购](http://weigou.baidu.com/)
+* [腾讯微购物](http://weigou.qq.com/)：基于腾讯移动平台优势，提供移动电商O2O整体解决方案，整合传统CRM、微信导购、智能数据支持、微信客服中心等功能
+
+## 系统解决方案供应商
+
+* [HiShop网店系统](http://www.hishop.com.cn/)：为传统企业及创业者提供零售网店系统、分销系统、微信商城系统、行业ERP等产品和解决方案。
+* [微购易](http://www.weigouyi.com/)：专注领域：微商城、微营销、微分销、微连锁、微活动、微会员，致力打造微电商服务第一品牌。
