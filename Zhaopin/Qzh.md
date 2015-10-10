@@ -72,3 +72,13 @@
 - FileStore：文件存储插件，使用ptree方式将上传的文件保存在指定目录，也可以配置到云服务器（如Google，Amazon S3）
 - DataLoader：数据加载器，为Accela公司的AA项目提供数据加载服务，可以定时去执行任务，将数据写到CKAN数据库。
 - AdminPortal：后台管理系统，提供数据管理、数据模板，查询和写入数据，方便组织机构使用。
+
+专业知识和技能方面：
+
+1.2008年浙江大学毕业，一直专注于后台系统架构设计，并对大数据分析有一定经验
+
+2. 7 年以上基于移动应用、Web应用、客户端应用和关系型数据库的实际项目开发经验，涉及iOS、Android、HTML、Javascript、Java、Oracle、Mysql等。
+
+3. 5年以上JAVA高并发开发经验， 熟练掌握Java编程，有JVM参数调优的经验，熟悉Spring、MyBatis等框架的使用，熟悉分布式、集群、高并发系统的设计原则，熟悉MySQL和Oracle数据库以及OSCache、Memcached、Rides等缓存的使用，熟悉Linux，熟悉Git、SVN、Maven等工具的使用。
+
+4. 3年以上基于分布式系统、大数据、物联网、移动应用等前沿技术和相关开源方案的大型互联网项目开发经验，涉及SOA、NoSQL、HDFS、MapReduce、Hadoop、Storm、Spark、微服务等技术
